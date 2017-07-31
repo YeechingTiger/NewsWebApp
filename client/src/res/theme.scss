@@ -1,0 +1,178 @@
+.whiteBox {
+  background: #fff;
+  box-shadow: 0px 0px 0.4rem #ccc;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.whiteBox > .title {
+  color: #F98500;
+  font-size: 0.8rem;
+  padding: 0 0 0.5rem 0;
+}
+
+.whiteBox > .content {
+  position: relative;
+}
+
+/*包围型白框*/
+.whiteBoxType2 {
+  background: #fff;
+  box-shadow: 0px 0px 0.4rem #ccc;
+  //padding:0.5rem;
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.whiteBoxType2 > .title {
+  color: #F98500;
+  font-size: 0.8rem;
+  //padding:0 0 0.5rem 0 ;
+  height: 2.7rem;
+  position: relative;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.whiteBoxType2 > .shortTitle {
+  color: #F98500;
+  font-size: 0.8rem;
+  //padding:0 0 0.5rem 0 ;
+  height: 2rem;
+  line-height: 2rem;
+  position: relative;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.whiteBoxType2 > .shortContent {
+  padding: 0.5rem;
+}
+
+.whiteBoxType2 > .shortTitle .iconTitle {
+  background-repeat: no-repeat;
+  background-position: 0.75rem center;
+  background-size: 1rem 1rem;
+  font-weight: bold;
+  text-indent: 2rem;
+  color: #666;
+}
+
+.whiteBoxType2 > .title .rightbox {
+  height: 1.5rem;
+  //width: 2rem;
+  //background: #000;
+  float: right;
+  margin: 0.6rem 0.2rem 0.6rem 0;
+}
+
+.whiteBoxType2 > .title .rightbox .itembox {
+  display: inline-block;
+  height: 1.2rem;
+  margin-right: 0.3rem;
+  border-radius: 1.5rem;
+  padding: 0 0.8rem;
+  line-height: 1.2rem;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+.whiteBoxType2 > .title .rightbox .itembox.yellow {
+  background: #F98451;
+}
+
+.whiteBoxType2 > .title .rightbox .itembox.pink {
+  background: #DD1E6B;
+}
+
+.whiteBoxType2 > .title .headblock {
+  text-align: center;
+  background: #F98400;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  position: absolute;
+  left: -1px;
+  top: 0.45rem;
+  width: 4.5rem;
+  border-radius: 0 1.6rem 1.6rem 0;
+  color: #fff;
+  font-size: 0.85rem;
+  text-indent: 0.7rem;
+  font-weight: bold;
+}
+
+.whiteBoxType2 > .title .headblock2 {
+  //text-align: center;
+  //background: #F98400;
+  padding-left: 1rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.45rem;
+  width: 4.5rem;
+  border-radius: 0 1.6rem 1.6rem 0;
+  color: #F98400;
+  font-size: 0.85rem;
+  text-indent: 0.7rem;
+  font-weight: bold;
+}
+
+.whiteBoxType2 > .content {
+  position: relative;
+}
+
+/*单行input样式*/
+.singleRowsInput {
+  height: 2rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 1px solid #DFDFDF;
+  position: relative;
+  overflow: hidden;
+  //margin:0.5rem 0;
+}
+
+.singleRowsInput input {
+  line-height: 1.8rem;
+  width: 100%;
+  height: 1.8rem;
+  padding: 0.1rem 0;
+  //border: 1px solid red;
+  border: none;
+  background: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.5rem;
+}
+
+.singleRowsInput .rightButton {
+  //box-sizing: content-box;
+  position: absolute;
+  padding: 0px 1rem;
+  font-size: 0.8rem;
+  top: 0;
+  right: 0;
+  right: 0px;
+  height: 2rem;
+  line-height: 2rem;
+  background: #F98400;
+  color: #fff;
+}
+
+/*Button*/
+.fullButton {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  margin: 1rem 0.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  background: #F98400;
+}
+
+.fullButton.pink {
+  background: #E34C89;
+}
+
+/*全局样式*/

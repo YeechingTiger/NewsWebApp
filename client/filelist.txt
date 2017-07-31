@@ -1,0 +1,1 @@
+.babelrc  //babel 服务端控制
