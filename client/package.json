@@ -11,7 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy_production": "NODE_ENV=production PRODUCTION=true webpack -p --progress --colors",
     "deploy_normal": "webpack -p --progress --colors"
-
   },
   "author": "pzl",
   "license": "ISC",
@@ -19,6 +18,7 @@
     "classnames": "^2.2.5",
     "es6-promise": "^4.1.0",
     "history": "^4.6.1",
+    "md5": "^2.2.1",
     "react": "^15.5.4",
     "react-composition": "^0.2.1",
     "react-dom": "^15.5.4",

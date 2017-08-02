@@ -24,6 +24,12 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
 		news = list(db['newslist'].find())
 		return json.loads(dumps(news))
 
+	@pyjsonrpc.rpcmethod
+	def fetch(self, a, b):
+		db = mongodb_client.get_db()
+		count = db['newslist'].count()
+		news = list(db['newslist'].find().limit(a).skip(count-a*b))
+		return json.loads(dumps(news))
 
 http_server = pyjsonrpc.ThreadingHttpServer(
 	server_address = (SERVER_HOST, SERVER_PORT),

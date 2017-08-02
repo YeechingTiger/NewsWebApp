@@ -15,6 +15,16 @@ function add(a, b, callback) {
   });
 }
 
+function fetchNews(number, pagenumber, callback) {
+  client.request('fetch', [number, pagenumber], function(err, error, response) {
+    if (err) throw err;
+    //console.log(response);
+    callback(response);
+  });
+
+}
+
 module.exports = {
-  add: add
+  add: add,
+  fetchNews: fetchNews
 }

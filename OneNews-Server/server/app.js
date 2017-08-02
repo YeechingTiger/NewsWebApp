@@ -3,7 +3,6 @@ var path = require('path');
 var index = require('./routes/index');
 var	news = require('./routes/news');
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, '../../OneNews/build/'));
 app.set('view engine', 'jade');
@@ -14,6 +13,7 @@ app.use('/', express.static(path.join(__dirname, '../../OneNews/build/')))
 app.all('*', function(req, res, next) {
 	res.header('Access-Control-Allow-Origin', '*');
 	res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+	res.header('Access-Control-Allow-Headers', 'Content-Type');
 	next();
 });
 

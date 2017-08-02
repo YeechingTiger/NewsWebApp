@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 50px;
+  align-items: flex-end;
+}
+
+.brand {
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+.login {
+  margin-right: 19px;
+}
+
+.login:hover {
+  background-color: #666666;
+  color: white;
+}
+
+.signup:hover {
+  background-color: #666666;
+  color: white;
+}
