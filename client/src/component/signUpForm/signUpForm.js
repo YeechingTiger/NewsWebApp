@@ -32,7 +32,7 @@ class SignUpForm extends Component {
         return (
             <div>
                 <h1>xxxx {this.state.account} {md5(this.state.password)}</h1>
-                <input type="text" value={this.state.account} onChange={this.handleChangeAccount} />
+                <input type="text"  onChange={this.handleChangeAccount} />
                 <input type="text" value={this.state.password} onChange={this.handleChangePassword.bind(this)} />
             </div>
         )
